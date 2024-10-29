@@ -17,7 +17,7 @@ import { createCustomer, cancelPayment, capturePayment } from "../services/api";
 
 const PAYMENT_TIMEOUT = 10 * 60 * 1000;
 const PAYPAL_CLIENT_ID =
-  "ARKU8tKiFex2D81R9oXl524KK6mRfKEBXf0MwalDr04lr2SSxYjkMsIjYICOANAGz5A5CuWafc6SW9q7&currency=GBP";
+  "ARKU8tKiFex2D81R9oXl524KK6mRfKEBXf0MwalDr04lr2SSxYjkMsIjYICOANAGzSW9q7&currency=GBP";
 
 const steps = ["Review Details", "Confirm Booking", "Payment", "Confirmation"];
 const BookingOverview = () => {
